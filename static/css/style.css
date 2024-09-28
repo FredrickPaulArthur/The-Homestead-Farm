@@ -1,0 +1,48 @@
+/* Custom styles for a green, nature-themed look */
+body {
+    background-color: #f5fdf5;
+    /* Soft, light green for background */
+    font-family: 'Arial', sans-serif;
+}
+
+.custom-navbar {
+    background-color: #3e8b3e;
+    /* Deep green navbar */
+    color: #fff;
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+    color: #000000;
+}
+
+.custom-navbar .nav-link:hover {
+    color: #a8dba8;
+    /* Soothing light green hover effect */
+}
+
+.footer {
+    background-color: #2e6b2e;
+    /* Darker green for footer */
+    color: #fff;
+}
+
+.container {
+    background-color: #ffffff;
+    /* White background for content areas */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Button customizations */
+.btn-custom {
+    background-color: #4CAF50;
+    /* Primary green button */
+    color: white;
+}
+
+.btn-custom:hover {
+    background-color: #45a049;
+    /* Darker green on hover */
+}
