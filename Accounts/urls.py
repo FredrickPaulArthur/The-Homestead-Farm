@@ -25,6 +25,7 @@ urlpatterns = [
          Logout,
          name="logout"),
 
+     ############### Use Django rest framework ###############
 
      path("password-reset/",
          PasswordResetView.as_view(template_name="password_reset.html"),
